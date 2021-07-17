@@ -1,0 +1,107 @@
+{
+  "hello": "hello react",
+  "app_title": "cv",
+  "language": "language",
+  "name": "Jo Eun Lee",
+  "title": "Jr. Frontend Developer",
+  "message": "Enthusiasm learning new skills hoping to become a global Javascript developer",
+  "nationality": "S Korea",
+  "contact": {
+    "phone": "(82)10-2354-9241",
+    "email": "leejoeun@gmail.com",
+    "blog": " leejoeun0948.medium.com/",
+    "linkedIn": "www.linkedin.com/in/joeun-lee-31387619b/",
+    "github": "github.com/je-Rebecca  "
+  },
+  "experience": {
+    "heading": "Education",
+    "experienceData": [
+      {
+        "id": 1,
+        "company": "CONSORTIUM CONSULTING GROUP (CCG)",
+        "jobTitle": "",
+        "timeframe": "Jun 2019- current",
+        "desc": "Maintain the company website with Wordpress",
+        "location": "NEW YORK NY",
+        "site": "http://ccg-bpc.com/"
+      },
+      {
+        "id": 2,
+        "company": "DouTech",
+        "jobTitle": "Jr. Software Engineer (React) ",
+        "timeframe": " FEB 2021- MAR 2021",
+        "desc": "Developed React company website",
+        "location": "SEOUL S.KOREA",
+        "site": "https://doutech.co.kr/"
+      },
+      {
+        "id": 3,
+        "company": "StudyGeoGraphic",
+        "jobTitle": "Web Projector   ",
+        "timeframe": "MAY 2020- JUL 2020",
+        "desc": "Designed and Projected the Study Cafe Platform Website (UI/UX layout)",
+        "location": "SEOUL S.KOREA",
+        "site": " http://studygeo.co.kr"
+      },
+      {
+        "id": 4,
+        "company": "CONSORTIUM CONSULTING GROUP (CCG)",
+        "jobTitle": "Marketer ",
+        "timeframe": "NOV 2017- May 2019",
+        "desc": "Interacted with clients and assisted in deal making such as schedule appointments,  showing and  preparing paperwork when the deal is made.  ",
+        "location": "NEW YORK NY",
+        "site": "http://ccg-bpc.com/"
+      }
+    ]
+  },
+  "education": {
+    "educationData": [
+      {
+        "id": "1",
+        "school": "Web Development Bootcamp , Udemy",
+        "time": " MAY2021 - current",
+        "study": "Learned React and Redux"
+      },
+      {
+        "id": "2",
+        "school": "Web Development Bootcamp , Udemy",
+        "time": " Mar.2021 - Jun. 2021",
+        "study": "Web BootCamp with Javascript. Learned javascript, mongoDB, React, node.js, REST API"
+      },
+      {
+        "id": "3",
+        "school": "KOREA IT Accademy Full Stack course",
+        "time": " Feb.2020 - Aug.2020",
+        "study": "Web Full stack course with JAVA. Made the website with Spring, Oracle DB, REST API, jquery "
+      },
+      {
+        "id": "4",
+        "school": "SungKyul University",
+        "time": " Mar. 2012 - Sep. 2019",
+        "study": "B. English Literature /  B. Business Administration"
+      }
+    ]
+  },
+  "projects": {
+    "projectData": [
+      {
+        "id": "1",
+        "projectName": "CareBnb Booking hotel app ",
+        "time": " Jun. 2021 - Current",
+        "desc": "Hotel Booking site. Build with React, Redux, styled-components ",
+        "imgUrl": "https://ifh.cc/g/pPpg9X.jpg",
+        "gitUrl": "https://ifh.cc/g/pPpg9X.jpg",
+        "projectUrl": "https://ifh.cc/g/pPpg9X.jpg"
+      },
+      {
+        "id": "2",
+        "projectName": "Word Memorizing ",
+        "time": " Jan. 2021 ",
+        "desc": "Simple Word Meorizing App, typing the words and meaning on this app. Add and Delete is the main features ",
+        "imgUrl": "https://ifh.cc/g/pXGPBi.jpg",
+        "gitUrl": "https://github.com/je-Rebecca/dictionary",
+        "projectUrl": " https://je-rebecca.github.io/dictionary/ "
+      }
+    ]
+  }
+}
