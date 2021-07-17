@@ -9,14 +9,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'flag-icon-css/css/flag-icon.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Profile from './Profile';
-import Experience from './Experience';
-import App from './App';
 import Header from './Header';
 import Home from './Home';
-import lavender from './img/labw.JPG';
 import './index.css';
-import Loading from './Loading';
 i18next
   .use(HttpApi)
   .use(LanguageDetector)
@@ -36,10 +31,7 @@ i18next
       loadPath: '/assets/locales/{{lng}}/translation.json',
     },
   });
-// i18next.init((err,t)=>{
-//   if(err) return console.log('something',err);
-//   t('key');
-// })
+
 const loadingMarkUp = (
   <div className="py-4 text-center">
     <h2>loading... </h2>
