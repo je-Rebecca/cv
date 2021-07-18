@@ -9,14 +9,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'flag-icon-css/css/flag-icon.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Profile from './Profile';
-import Experience from './Experience';
-import App from './App';
 import Header from './Header';
 import Home from './Home';
-import lavender from './img/labw.JPG';
 import './index.css';
-import Loading from './Loading';
 i18next
   .use(HttpApi)
   .use(LanguageDetector)

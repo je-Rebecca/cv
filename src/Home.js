@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import Experience from './Experience';
 import Footer from './Footer';
 import Profile from './Profile';

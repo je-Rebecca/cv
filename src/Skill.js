@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react';
 import FrontSkill from './FrontSkill';
 import BackendSkill from './BackendSkill';
 import styled from 'styled-components';
@@ -23,13 +22,11 @@ const Skill = () => {
   console.log(skillBox.current);
   // console.log(skillBox.current.scrollHeight);
   // console.log(skillBox[scrollHeight]);
-  const { t } = useTranslation();
   return (
     <ContainerBox ref={skillBox} id="skill">
       <div className="container">
         <Title>Skills</Title>
 
-        {/* {Barchart} */}
         <ChartWrap>
           <FrontSkill />
           <BackendSkill />

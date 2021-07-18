@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import word from './img/word.JPG';
-import care from './img/care.JPG';
 import { FaGithub, FaLink } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 const Project = () => {

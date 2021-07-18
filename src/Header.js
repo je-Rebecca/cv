@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { DropdownButton, Dropdown } from 'react-bootstrap';
 import i18next from 'i18next';
 import cookies from 'js-cookie';
 import { useTranslation } from 'react-i18next';
 import styled from 'styled-components';
-import toSkill from './Skill';
-import Skill from './Skill';
 // console.log(toSkill);
 
 const languages = [
